@@ -2,6 +2,9 @@
 	margin: 0px;
 	padding: 0px;
 }
+body {
+	background-image:url(images/background.png);
+}
 #wrapper{
 	width:100%;
 	margin:auto;
