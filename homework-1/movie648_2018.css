@@ -1,4 +1,4 @@
-#header{
+h1{
 	width: 100%;
 	height: 70px;
 	font-size:24pt;
@@ -6,12 +6,27 @@
 	text-shadow: 3px 3px #999999;
 	font-family: "Times New Roman" , Times, serif;
 }
+#header {
+	padding:0;
+	background-repeat: repeat-x;
+	z-index: -1;
+	margin:auto;
+	padding-bottom: 1rem;
+	font-size:48pt;
+	font-weight:bold;
+	color:red;
+	padding: 0px;
+	text-align:center-left;
+	background-image:url(images/rbg.png);
+}
+
 body,
 html {
 	margin:0;
 	padding:0;
 	background:#EEEEEE;
 }
+
 #wrap {
 	width:750px;
 	margin:0 auto;
@@ -26,14 +41,33 @@ html {
 	float:right;
 	width:200px;
 	background:#A2B964;
+	padding:10px;
 }
 #footer {
 	clear:both;
 	position:center;
 	background: #A2B964;
+	padding:5px 10px;
+}
+* html #footer {
+	height:1px;
 }
 #w3c {
 position:absolute;
 right:0px;
 z-index:-1;
+}
+#nav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#nav li {
+	display:inline;
+	margin:0;
+	padding:0;
+}
+#nav {
+	padding:5px 10px;
+	background:#A2B964;
 }
