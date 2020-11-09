@@ -6,6 +6,7 @@ h1{
 	text-shadow: 3px 3px #999999;
 	font-family: "Times New Roman" , Times, serif;
 }
+
 #header {
 	padding:0;
 	background-repeat: repeat-x;
@@ -37,7 +38,7 @@ html {
 	float:left;
 	width:480px;
 	padding:10px;
-	background:#CCCCCC;
+	background:#eeeeee;
 }
 p { font-family: Arial, Helvetica, sans-serif; 
 font-size:12pt;
@@ -60,7 +61,7 @@ font-style: italic;
 
 #sidebar {
 	float:right;
-	width:230px;
+	max-width:230px;
 	padding:10px;
 	background:#A2B964;
 	padding:10px;
@@ -68,8 +69,8 @@ font-style: italic;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight:bold;
 	/*padding-top:25px;*/
-	margin: 0px;
 	}
+
 div.big {
 	line-height: 150%;
 }
@@ -79,6 +80,7 @@ div.big {
 	background: #A2B964;
 	padding:0.5em;
 	text-align:center;
+	font-weight:bold;
 }
 * html #footer {
 	height:1px;
