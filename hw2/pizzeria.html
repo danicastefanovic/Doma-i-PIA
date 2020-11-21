@@ -13,20 +13,20 @@
 <body>
   <seciton id="nav-bar">
     <nav class="navbar navbar-expand-lg navbar-light ">
-      <a class="navbar-brand" href="#"><img src="images/loffredo.png"></a>
+      <a class="navbar-brand" href="#"><img src="images/loffredo.png"> <span style=color:red>Pizzeria Loffredo</span></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
+        <ul class="nav">
           <li class="nav-item ">
-            <a class="nav-link" href="#">O nama </a>
+            <a class="nav-link" href="#about">O nama </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Meni</a>
+            <a class="nav-link" href="#menu">Meni</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Kontakt</a>
+            <a class="nav-link" href="#contact">Kontakt</a>
           </li>
         </ul>
       </div>
@@ -86,10 +86,11 @@
   </div>
   </section>
   <!--Menu-->
-  <section id="menu">
+  <section  id="menu">
   <div class="container">
     <div class="row">
       <div class="col">
+      
         <h2 >Meni</h2>
         <div class="content">
           <img src="images/kaptićoza.png" style="width:100%; padding-top: 20px;">
@@ -101,7 +102,7 @@
       </div>
       <div class="col">
         <p class="sastav">
-          Kaprićoza (<span style=color:red>Capriccioza</span>)
+          <span style=color:red>Kaprićoza</span> (Capriccioza)
 -pelat, kačkavalj, šunka, pečurke, maslina, origano
         </p>
         <div class="btn-group" role="group" aria-label="Basic example">
@@ -121,7 +122,7 @@
           </label>
         </div>
         <p class="sastav">
-          Tuna(<span style=color:red>Tonno</span>)-pelat, tuna, posni kačkavalj, pečurke, paprika, maslina, origano</p>
+          <span style=color:red>Tuna</span>(Tonno)-pelat, tuna, posni kačkavalj, pečurke, paprika, maslina, origano</p>
         
           <div class="btn-group" role="group" aria-label="Basic example">
             <button type="button" class="btn btn-secondary">Mala<br>10cm</button>
@@ -140,7 +141,7 @@
             </label>
           </div>
         <p class="sastav">
-          Vegeterijana-pelat, posni kačkavalj, pečurke, paprika, tikvica, masline
+          <span style=color:red> Vegeterijana</span>-pelat, posni kačkavalj, pečurke, paprika, tikvica, masline
         </p>
         <div class="btn-group" role="group" aria-label="Basic example">
           <button type="button" class="btn btn-secondary">Mala<br>10cm</button>
@@ -159,7 +160,7 @@
           </label>
         </div>
         <p class="sastav">
-          Peperoni-pelat,kačkavalj,kulen
+          <span style=color:red> Peperoni</span>-pelat,kačkavalj,kulen
         </p>
         <div class="btn-group" role="group" aria-label="Basic example">
           <button type="button" class="btn btn-secondary">Mala <br>10cm</button>
@@ -178,7 +179,7 @@
           </label>
         </div>
         <p class="sastav1">
-          Margarita-pelat, kačkavalj, origano, masline
+          <span style=color:red> Margarita</span>-pelat, kačkavalj, origano, masline
         </p>
         <div class="btn-group" role="group" aria-label="Basic example">
           <button type="button" class="btn btn-secondary">Mala <br>10cm</button>
@@ -200,11 +201,32 @@
         
       </div>
     </div>
-  </div>
+  </div> 
+</section>
   <!--Kontakt-->
-  <div class="sekcija">
-    <div class="container">
-      <div class="row">
+ <!-- <section  id="contact">
+  <div class="sekcija"> -->
+      <section id="contact">
+      <div class="container">
+        <form action="/action_page.php">
+          <h2>Kontakt</h2>
+          <label for="fname">Ime</label>
+          <input type="text" id="fname" name="firstname" placeholder="Napiši ime">
+      
+          <label for="lname">Prezime</label>
+          <input type="text" id="lname" name="lastname" placeholder="Napiši prezime">
+      
+          <label for="femail">Email</label>
+          <input type="text" id="femail" name="email" placeholder="@">
+      
+          <label for="subject">Komentar</label>
+          <textarea id="subject" name="subject" placeholder="Napiši komentar" style="height:200px"></textarea>
+      
+          <input type="submit" value="Pošalji">
+        </form>
+      </div>
+      </section>
+      <!--<div class="row">
         <div class="centar">
        <div class="col-md-12 text-center">
           <h2 class="sekcija title">Kontakt</h2>
@@ -232,30 +254,31 @@
               </div>
               
               <!--centar-->
-          </form>
+          <!--</form>
         </div>
       </div>
     </div>
   </div>
-          
+</section>     -->  
             
-  <!--footer-->
-  <footer class="footer">
-    <h1>
-    <img src="./images/loffredo.png" style="float:left;" alt=""></h1>
-    <div class="social-icon">
-   
-    <a href="#" class="fa fa-facebook"></a>
-    <a href="#" class="fa fa-twitter"></a>
-    <a href="#" class="fa fa-youtube"></a>
-  </div> 
-   
-      
-    <p1 style="padding-top:80px;padding-left: 100px;">
-    All rights reserved by ©STEFANOVIĆDANICA_ 2020 </p1>
+ <div id="footer">
+   <p><img src="images/loffredo.png" ></p>
+   <div class="container">
+     <div class="social-icon">
+     
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-instagram"></a>
+   </div> 
 
-    </footer>
+       </div>
+     </div>
+   </div>
     
+ </div>
+ </div>
 
 </body>
 </html>
