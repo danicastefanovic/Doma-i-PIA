@@ -1,10 +1,11 @@
+/*Navigacija-opšta*/
 body{
     background-image: url("images/background.png");
     margin:0;
     padding:0;
     font-size:12pt;
     font-family: Arial, Helvetica, sans-serif;
-    /*width:55%;*/
+    
 }
 h1{
     font-size:24pt;
@@ -46,6 +47,7 @@ z-index:-1;
     background-repeat: repeat-x;
     overflow: auto;
 }
+/*Komentari*/
 .oblačić{
 	padding-left:1rem;
 	padding-right:1.7rem;
@@ -88,6 +90,7 @@ z-index:-1;
 .space1{
 	padding-bottom:10px;
 }
+/*Navigacija-desni tekst*/
 dl{
 	margin-top: -15px;
     padding: 15px;
@@ -100,6 +103,10 @@ ul {
     padding: 0;
 	text-indent: 0px;
 }
+dd {
+	font-weight:bold;
+}
+/*Futer*/
 #footer {
         clear:both;
 	position:center;
