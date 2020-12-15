@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kviz.css">
+    <title>Kviz</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+
+    <!-- Početak,prvi prikaz,input za ime i klik za upustvo-->
+    <div class="form">
+
+        <input type="text" name="name" autocomplete="off" placeholder="Unesi ime" required />
+    </div>
+
+    <div class="start_btn"><button>Klikni za upustva</button></div>
+    </div>
+    <!-- Upustvo,dugme za početak igre -->
+    <div class="info_box">
+        <div class="info-title"><span>Upustva</span></div>
+        <div class="info-list">
+            <div class="info">Kviz počinje klikom na dugme "POČNI KVIZ"</div>
+            <div class="info">Automatski dobijate<span>20 sekundi</span>da odgovorite na pitanje</div>
+            <div class="info">Svaki tačan odgovor nosi 1 poen</div>
+            <div class="info">Možete preskočiti pitanje ali ne i da se vratite</div>
+            <div class="info">Možete izaći iz kviza</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Napusti</button>
+            <button class="restart">Počni kviz</button>
+        </div>
+    </div>
+
+    <!-- Pitanja -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Kviz</div>
+            <div class="timer">
+                <div class="time_left_txt">Vreme</div>
+                <div class="timer_sec">20</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <!-- pitanja koja se učitavaju iz js -->
+            <div class="que_text">
+            </div>
+            <!-- ponuđene opcije-->
+            <div class="option_list">
+
+            </div>
+        </section>
+
+        <!-- kviz-futer -->
+        <footer>
+            <div class="total_que">
+                <!-- odbrojavanje pitanja-->
+            </div>
+            <button class="next_btn">Sledeće</button>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="pitanja.js"></script>
+    <script src="kviz.js"></script>
+</body>
+
+</html>
