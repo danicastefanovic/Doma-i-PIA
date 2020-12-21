@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stil.css">
+    <title>Kviz</title>
+</head>
+
+<body>
+    <script src="pitanja_forNow.js"></script>
+    <script src="ključ.js"></script>
+    <!-- Početak,prvi prikaz,input za ime i klik za upustvo-->
+    <div class="container">
+        <div class="firstLook">
+            <form class="form" name="form" onsubmit="submitForm(event)">
+                <input type="text" name="firstname" placeholder="Ime takmičera">
+                <div class="rules_btn">
+                    <button>Klikni za upustvo</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
