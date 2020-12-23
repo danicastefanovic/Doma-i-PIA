@@ -1,0 +1,103 @@
+{
+    "kviz": {
+        "q1": {
+            "question": "Ako hoćeš da znaš kakva je država i njena uprava, i kakva im je budućnost, gledaj samo da saznaš koliko u toj zemlji ima čestitih i nevinih ljudi po zatvorima, a koliko zlikovaca i prestupnika na slobodi..” Ivo Andrić u delu:",
+            "answer": "Prokleta avlija",
+            "option": [
+                "Priča o vezirovom slonu",
+                "Mustafa Madžar",
+                "Prokleta avlija",
+                "Priča o kmetu Simanu"
+            ]
+        },
+        "q2": {
+            "question": "Da ste kojim slučajem Indijanac gosta biste pozvali u svoj:",
+            "answer": "vigvam",
+            "option": [
+                "amulet",
+                "tomahavk",
+                "vigvam"
+            ]
+        },
+        "q3": {
+            "question": "Stari Rimljani su istoriju računali od osnivanja grada Rima (753. g. p. n. e) služeći se pri navodu godina izrazom:",
+            "answer": "ab urbe condita",
+            "option": [
+                "ab urbe condita",
+                "ex capite",
+                "ab ovo",
+                "ubi et orbii"
+            ]
+        },
+        "q4": {
+            "question": "Najsuvlja pustinja na svetu, Atakama nalazi se na području:",
+            "answer": "Čilea",
+            "option": [
+                "Bolivije",
+                "Čilea",
+                "Argentine",
+                "Perua"
+            ]
+        },
+        "q5": {
+            "question": "Velika ljubav Sirana de Beržeraka iz istoimene drame Edmona Rostana zove se:",
+            "answer": "Roksana",
+            "option": [
+                "Laura",
+                "Fedora",
+                "Roksana",
+                "Manon"
+            ]
+        },
+        "q6": {
+            "question": "Sefardi su Jevreji koji su nekad živeli u:",
+            "answer": "Španiji",
+            "option": [
+                "Španiji",
+                "Poljskoj",
+                "Nemačkoj",
+                "Turskoj"
+            ]
+        },
+        "q7": {
+            "question": "Samo jedno od navedenih čudovišta iz grčke mitologije nema ljudsku glavu.To je: ",
+            "answer": "Minotaur",
+            "option": [
+                "Meduza",
+                "Harpija",
+                "Kentaur",
+                "Minotaur"
+            ]
+        },
+        "q8": {
+            "question": "Najodlikovaniji američki vojnik u Drugom svetskom ratu bio je poznati holivudski glumac:",
+            "answer": "Odi Marfi",
+            "option": [
+                "Gari Kuper",
+                "Odi Marfi",
+                "Džejms Stjuart",
+                "Džon Vejn"
+            ]
+        },
+        "q9": {
+            "question": "Prva zemlja u kojoj su 1893. godine žene stekle pravo glasa je:",
+            "answer": "Novi Zeland",
+            "option": [
+                "Grčka",
+                "Meksiko",
+                "Japan",
+                "Novi Zeland"
+            ]
+        },
+        "q10": {
+            "question": "Katarina Ivanovi je u srpskoj kulturi ostavila trag kao prva žena:",
+            "answer": "slikarka",
+            "option": [
+                "slikarka",
+                "kompozitorka",
+                "spisateljica",
+                "rediteljka"
+            ]
+        }
+    }
+}
