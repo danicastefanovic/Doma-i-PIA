@@ -8,7 +8,7 @@
 </head>
 <body>
 <div class="container">
-<form method="POST" action="php/connection.php">
+<form method="POST" action="php/signin.php">
 <h2>Login</h2>
     <div class="input-group">
     <input type="text" placeholder="Enter your user name or email" name="username">
