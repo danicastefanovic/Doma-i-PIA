@@ -8,7 +8,7 @@
 </head>
 <body>
 <div class="container">
-<form method="POST" action="php/signin.php">
+<form method="POST" action="php/connection.php">
 <h2>Login</h2>
     <div class="input-group">
     <input type="text" placeholder="Enter your user name or email" name="username">
@@ -19,8 +19,9 @@
     <div class="input-group">
      <button type="submit" name="login" class="btn">Sign in</button>
 </div>
+   <?php echo '<p>Do not have an account</p>' ?>
    <p>
-    Don't have account? <a href="index.php">Sign up</a>
+    Clik here for singing up <a href="index.php">Sign up</a>
    </p>
 </div>
 </form>
