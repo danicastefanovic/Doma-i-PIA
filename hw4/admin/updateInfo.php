@@ -47,7 +47,7 @@
         <input class="desc" type="text" name="description" placeholder="Description">
         <div class="btw1">
         <label for="genr">Choose a genrs:</label>
-  <select id="genrs" name="genrs">
+  <select id="genrs" name="genres">
     <option value="action">action</option>
     <option value="adventure">adventure</option>
     <option value="animation">animation</option>
@@ -63,14 +63,13 @@
   </select> </div>
         <input class="btw" type="text" name="director" placeholder="Director"> 
         <input class="btw" type="text" name="writer" placeholder="Writer">
-        <input class="btw" type="text" name="production" placeholder="Production Company">
-        <input class="btw" type="text" name="act" placeholder="Stars">
+        <input class="btw" type="text" name="productioncmp" placeholder="Production Company">
+        <input class="btw" type="text" name="stars" placeholder="Stars">
         <input class="btw" type="date" name="date" placeholder="Release date">
         <div class="btw1">
         <form action="upload.php" method="post" enctype="multipart/form-data">
                  Select image to upload:
-         <input type="file" name="fileToUpload" id="fileToUpload"> </div>
-         <input type="submit" value="Upload Image" name="submit">
+         <input type="file" name="image" id="image"> </div>
          <input class="btw" type="time" name="time" placeholder="Running time">
                <button type="submit" class="btw1"><a class="nav-link" href="../admin/index.php">POST</a></button>
         </form>
