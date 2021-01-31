@@ -19,6 +19,7 @@ if($result->num_rows == 1) {
             header('location:../main.php');
         }
 } else {
-    echo "There is something wrong,try again to login in!";
+    header('location:../login.php');
+    echo "<h1>There is something wrong,try again to login in!</h1>";
 }
 ?>
