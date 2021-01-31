@@ -1,4 +1,14 @@
 <!--page je stranica za admina,home uvek vodi do main stranice koja je vidljiva za sve korisnike-->
+<?php
+include "php/connection.php";
+if($_SESSION['admin']==0){
+  header('location:main.php');
+}
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,7 +51,10 @@
     </nav>
       
 </div>
-  
+<label for='type'>Genrs: </label>
+        <select class='inputField' name='ddlType'>
+            <option value='%'>All</option>"
+        "</select><br/>
 <div class="row">
   <div class="column" onclick="openTab('b1');" style="background:white;">
   <h5>Léon</h5>
