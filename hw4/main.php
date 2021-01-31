@@ -20,7 +20,7 @@
         <ul class="nav">
         <li class="nav-item ">
           <li class="nav-item ">
-            <a class="nav-link" href="main.php">Home </a>
+            <a class="nav-link" href="main.php">Home</a>
           </li>
           <li class="nav-item">
           <a class="nav-link" href="../phpprojekat/login.php">Logout</a>
@@ -32,6 +32,11 @@
     </nav>
       
 </div>
+<label for='type'>Genrs: </label>
+        <select class='inputField' name='ddlType'>
+            <option value='%'>All</option>"
+        "</select><br/>
+<dic class="cnt">
 <div class="row">
   <div class="column" onclick="openTab('b1');" style="background:white;">
   <h5>Léon</h5>
@@ -434,7 +439,7 @@
 
 </div>
 
-
+</div>
 <script src="js/mainpage.js"></script>
 
 
